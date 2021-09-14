@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: rgb(210,241,249);
+    background: linear-gradient(90deg, rgba(210,241,249,1) 27%, rgba(240,174,237,1) 81%);
+}
+
+
+.flex-container{
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    width: 40vw;
+    height: 35vh;
+    align-items: center;
+    margin-top: 30vh;
+    margin-left: 30vw;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+#showBtn{
+    background-color: rgb(255, 241, 50);
+    font: 1rem;
+    border: none;
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+#showBtn:hover{
+    cursor: pointer;
+    outline: none;
+    transform: translateY(-8px);
+    background-color: rgb(248, 227, 42);
+}
+
+#bdayInput{
+    border: none;
+    font-size: 1rem;
+    padding: 0.2rem;
+    width: 15vw;
+}
+
+#bdayInput:focus{
+    outline: none;
+}
+
+.spin{
+    width: 3.5rem;
+}
